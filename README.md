@@ -5,6 +5,9 @@ Work in progress
 
 ## WIP plans
 
+* Build framework for adding user input, stay on homepage for now
+
+* Display user input in list form
 
 ## How to run
 
