@@ -1,6 +1,6 @@
 import React from "react";
 
-class TodoApp extends React.Component {
+class RouteLister extends React.Component {
     constructor(props) {
         super(props);
         this.state = { items: [], text: '' };
@@ -12,7 +12,7 @@ class TodoApp extends React.Component {
         return (
             <div>
                 <h3>TODO</h3>
-                <TodoList items={this.state.items} />
+                <RouteList items={this.state.items} />
                 <form onSubmit={this.handleSubmit}>
                     <label htmlFor="new-todo">
                         What needs to be done?
@@ -50,7 +50,7 @@ class TodoApp extends React.Component {
     }
 }
 
-class TodoList extends React.Component {
+class RouteList extends React.Component {
     render() {
         return (
             <ul>
@@ -63,4 +63,4 @@ class TodoList extends React.Component {
 }
 
 
-export { TodoApp }
+export { RouteLister }
