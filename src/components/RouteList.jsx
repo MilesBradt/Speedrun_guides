@@ -10,19 +10,19 @@ class RouteLister extends React.Component {
 
     render() {
         return (
-            <div>
-                <h3>TODO</h3>
+            <div id="route-list-input">
+                <h3>Route</h3>
                 <RouteList items={this.state.items} />
                 <form onSubmit={this.handleSubmit}>
-                    <label htmlFor="new-todo">
+                    <label htmlFor="new-step">
                         What needs to be done?
-          </label>
+                    </label>
                     <input
-                        id="new-todo"
+                        id="new-step"
                         onChange={this.handleChange}
                         value={this.state.text}
                     />
-                    <button>
+                    <button id="route-list-button">
                         Add #{this.state.items.length + 1}
                     </button>
                 </form>

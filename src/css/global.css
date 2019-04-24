@@ -9,5 +9,16 @@ body {
 #home-text {
   color: #F2F2F2;
   font-size: 4em;
+  padding-left: 25px;
+}
+
+#route-list-input {
+  color: #F2F2F2;
+  width: 400px;
+  padding-left: 25px;
+}
+
+#route-list-button {
+  color: #000;
 }
 
