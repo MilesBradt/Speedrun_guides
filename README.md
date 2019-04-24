@@ -5,9 +5,13 @@ Work in progress
 
 ## WIP plans
 
-* Build framework for adding user input, stay on homepage for now
+* ~~Build framework for adding user input, stay on homepage for now~~
 
-* Display user input in list form
+* ~~Display user input in list form~~
+
+* Add more properties to list items being added
+
+* Save listed items, mock DB for now
 
 ## How to run
 
